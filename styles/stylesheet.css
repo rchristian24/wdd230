@@ -1,0 +1,73 @@
+body{
+ font-size: 18px;
+ line-height: 1.5;
+}
+
+header, nav, main, footer{
+    margin: 3.25rem auto;     
+}
+
+header, footer{
+    display:flex;    
+    box-shadow: 0 10px 10px 0 gray;
+    background-color: cornflowerblue;
+    color:antiquewhite;
+    font-family: sans-serif;
+    text-align: center ;
+    text-shadow: 1px 5px gray;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 25px;
+}
+
+header{ 
+    flex-wrap: wrap;   
+ }
+
+ #name{
+    color: antiquewhite;
+    font-size: 80px;
+    text-shadow: 3px 4px  gray;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    margin:0 auto;
+    padding:2px;  
+    margin-left: 20px;
+}
+
+img{
+    margin-top: 2px;
+    float: left;
+    margin-left: 50px;  
+    border: 1px  grey;
+    box-shadow: 0 5px 9px 0px lightgrey;
+    padding: 2px;
+}
+
+#portal{
+    font-family: sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: -30px;
+    text-shadow: 0px 5px 9px gray;
+}
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+hr{
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul{
+    font-size: 25px;
+}
+
+div{   
+    margin:0 auto;
+    padding: 1rem;
+}
