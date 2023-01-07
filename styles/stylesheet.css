@@ -10,11 +10,11 @@ header, nav, main, footer{
 header, footer{
     display:flex;    
     box-shadow: 0 10px 10px 0 gray;
-    background-color: cornflowerblue;
+    background-color: rgb(61, 99, 172);
     color:antiquewhite;
     font-family: sans-serif;
     text-align: center ;
-    text-shadow: 1px 5px gray;
+    text-shadow: 1px 5px darkblue;
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 25px;
@@ -23,11 +23,14 @@ header, footer{
 header{ 
     flex-wrap: wrap;   
  }
+ footer{
+    text-shadow: 1px 2px darkblue;
+ }
 
  #name{
     color: antiquewhite;
     font-size: 80px;
-    text-shadow: 3px 4px  gray;
+    text-shadow: 3px 4px  darkblue;
     flex-wrap: wrap;
     margin-top: 90px;
     margin:0 auto;
@@ -40,7 +43,7 @@ img{
     float: left;
     margin-left: 50px;  
     border: 1px  grey;
-    box-shadow: 0 5px 9px 0px lightgrey;
+    box-shadow: 0 5px 9px 0px darkblue;
     padding: 2px;
 }
 
