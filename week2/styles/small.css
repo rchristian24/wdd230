@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:20px;
+    gap:20px;
+}
+#principles{
+   margin-left: 20px;
+   margin-right: 20px;
+} 
+
+#title{
+   grid-column-start:2;
+    text-align: center;
+    margin:0 auto;
+    padding: 2em;
+    background: #81b29a;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 1em 2em 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+#author{
+    font-size: 25px;
+}
+h2{
+  
+    text-align: center;
+    font-size: 30px;    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    padding:30px;  
+}
+
+main {
+    grid-column-start:2;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+   
+}
+#FittsLaw, #Repetition, #WhiteSpace{
+    
+    margin:0 auto; 
+    padding: 1em;
+    background: #81b29a;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left:7%;
+    margin-right:7%;
+}
+
+#Hotjar, #Nike,#DropBox{
+    max-width: 100%;
+    height:auto;
+    padding:10px;
+    padding-top: 20px;
+}
+#Nike{ 
+    margin-left: -80px;
+  
+}
+#DropBox{
+    margin-left: -80px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    padding:30px;
+    line-height: 25px;
+}
+
+#bottom_grid{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;    
+}
+
+footer{
+    grid-column-start: 2;
+    background: #81b29a;
+    padding:20px;
+    text-align: center;  
+}

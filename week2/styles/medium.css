@@ -1,0 +1,72 @@
+@media only screen and (min-width:32.5em) and (max-width: 1023px) {
+   
+    #bottom_grid{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;    
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 10% 4fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap:20px;
+    }
+
+    #FittsLaw{
+        grid-column-start:2;
+        margin: 0 auto;
+        /* margin-left: 20px;
+        margin-top: 55px; */
+        height: fit-content;
+    }
+    #Repetition{
+        margin: 0 auto;
+       
+        height: fit-content;
+    }
+
+    #WhiteSpace{
+        grid-row-start:2;
+        grid-column: 2/ span 2;
+        margin:0 auto;      
+        height:fit-content;
+    }
+    
+    h2{
+        font-size: 35px;
+    }
+    
+    b{
+        font-size: 38px;
+    }
+    h3{
+        padding-left: 20px;
+    }
+    
+    footer{
+        margin-top: -600px;
+        margin-bottom: 600px;
+    }
+    
+    p{
+        line-height: 30px;
+    }
+    
+    #Nike, #Hotjar, #DropBox {
+        text-align: center;
+        height:100%;
+        width: 100%;
+    }
+
+    #Nike{
+        margin-left: 20px;
+    } 
+
+    #DropBox{
+        margin-left: 50px;
+    }
+
+ 
+
+
+}
