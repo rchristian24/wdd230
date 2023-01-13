@@ -39,7 +39,8 @@ a {
 }
 
 main {
-    grid-column-start:2;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
 }
 h3{
     font-family: 'Ubuntu', sans-serif;
@@ -63,13 +64,17 @@ h3{
     padding:10px;
     padding-top: 20px;
 }
+
+#Hotjar{
+    margin-right:80px;
+    margin-left: -15px;
+}
 #Nike{ 
     margin-left: -80px;
+    padding-left: 100px;
   
 }
-#DropBox{
-    margin-left: -80px;
-}
+
 p{
     font-family: 'Montserrat', sans-serif;
     padding:30px;
