@@ -31,7 +31,7 @@ header, footer{
  } 
 
  #name{
-    font-size: 2rem;
+    font-size: 1.5rem;
     flex-wrap: wrap;
     margin-top: 1rem;
     margin:0 auto;
