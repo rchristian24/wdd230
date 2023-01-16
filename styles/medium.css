@@ -1,18 +1,18 @@
 @media only screen and (min-width:850px) {
     header, footer{      
-        margin-left: 200px;
-        margin-right: 200px;   
+        margin: auto;
+        margin-top: 10px;
     }
     
     #name{
        
         font-size: 3rem;
         text-shadow: 3px 4px  darkblue;
-        margin-left: 20px;
+       
     } 
 
     #portal{
-        
+       
         font-size: 35px;
         margin-top: -30px;
     } 
@@ -22,10 +22,8 @@
         float: left;
         margin-left: 50px;   
     } 
-
     main{
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-top: 25px;
     }
 
     hr{
