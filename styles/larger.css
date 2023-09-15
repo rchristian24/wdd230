@@ -3,11 +3,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
    }
+
+   img{
+    max-width: 30%;
+   }
+
+   h1{
+  font-size: 400%;
+   }
+
    h2{
      grid-column:1 / span 3;
+     font-size: 2em;
    }
    
    h3{
      grid-column: 2/ span 4;
    }
+   
+   nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    background: black;
+  }
 }
