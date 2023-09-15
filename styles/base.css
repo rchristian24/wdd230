@@ -17,7 +17,8 @@ img{
 
 h1 {
   font-size: 2em;
-  color: whitesmoke;
+  color: #2B2D42;
+  
   margin-left: 20px;
   text-align: center; 
 }
@@ -65,7 +66,7 @@ h3 {
   margin: 0;
   background-color: #2B2D42;
   text-align: center;
-  color: whitesmoke;
+  color: white;
 }
 
 h5{
@@ -80,6 +81,6 @@ footer {
   margin: auto;
   margin-top: 10px;
   background-color: #8D99AE;
-  color: whitesmoke;
+  color: #2B2D42;
   text-align: center;
 }
