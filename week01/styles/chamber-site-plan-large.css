@@ -17,6 +17,9 @@ h3{
     background-color: #023047;
     color:#ffb703;
 }
+li{
+    margin-bottom: 10px;
+}
 .primary{
     background-color: #219ebc;
 }
