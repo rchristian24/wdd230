@@ -1,0 +1,38 @@
+h1 h2 h3 h4 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+p li{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: #219ebc;
+    text-align: center;
+}
+h3{
+    background-color: #023047;
+    color:#ffb703;
+}
+.primary{
+    background-color: #219ebc;
+}
+.secondary{
+    background-color: #023047;
+}
+.accent1{
+    background-color: #ffb703;
+}
+.accent2{
+    background-color: #fb8500;
+}
+.accent3{
+    background-color: #8ec88e;
+}
+#color-text{
+    background-color: #8ec88e;
+    color:#023047;
+}
