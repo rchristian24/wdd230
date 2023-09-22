@@ -20,4 +20,29 @@
 	#button-box{
 		font-size: 50px;
 	}
+	
+	#content{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	header{
+		grid-column: 1/span 3;
+	}
+	#hero{
+		grid-column: 1/span 3;
+	}
+	
+	.home{
+		grid-column: 1/span 3;
+	}
+	#companies{
+		grid-column: 1/span 3;
+		display:flex;
+		flex-wrap:wrap;
+		margin:20px auto;
+		align-items: center;
+	}
+	
+	
+		
+
 }

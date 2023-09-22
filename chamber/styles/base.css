@@ -4,12 +4,131 @@
 	box-sizing: border-box;
 }
 
+#content{
+	display:grid;
+	grid-template-columns: 1fr;
+}
+
+h1 h2 h4{
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	background-color: #219ebc;
+	margin-top: -29px;
+}
+
+header #name{
+	font-family: 'Roboto',sans-serif;
+	padding-top: 5%;
+	font-size: 2rem;
+	margin: 0px auto;
+	margin-left: 15px;
+}
+
+.logo{
+	width: 140px;
+	height: 80px;
+	margin-left: 15px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+#hero-img{
+	opacity: 1;
+}
+
+#hero-box{
+	position:relative;
+	text-align: center;
+	color:#023047;
+	margin-top: -30px;	
+}
+
+.home-title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 6rem;
+	font-family: 'Alegreya Sans',sans-serif;
+}
+
 nav {
-	
+	font-family: 'Roboto',sans-serif;
 	margin: 1rem auto;
 }
 
-/* small view navigation */
+.button-box{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.5rem;
+	text-align: center;
+	border: 10px solid #ffb703;
+	background-color: #ffb703;
+	border-radius: 12px;
+	box-shadow: 5px 5px 3px gray;
+}
+
+.button{
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+}
+
+.home{
+	
+	background-color: #023047;
+	margin-top: -10px;
+}
+
+#spotlight {
+	background-color: #023047;
+	text-align: center;
+	color: white;
+	padding:20px;
+	font-size: 2rem;
+}
+
+#A4, #hospital, #hotel{
+
+	width: 100%;
+	max-width: 250px;
+	align-items: center;
+	text-align: center;
+	border: 10px solid black;
+	border-radius: 12px;
+	margin:10px auto; 
+	padding:20px;
+	background-color: #219ebc;
+	color:white;
+	box-shadow: 5px 5px 3px grey;
+} 
+.weather-card {
+	color: white;
+	border: 10px solid black;
+	display:flex;
+	flex-direction: column;
+	background-color: #219ebc;
+
+}
+
+#community{
+	color: white;
+	border: 10px solid black;
+	margin:10px;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: #219ebc;
+
+}
+
+/* Hamurger Menu small view navigation */
 #menu {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
@@ -68,133 +187,5 @@ nav {
 	margin-right: .5rem;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-	background-color: white;
-}
 
-h1 h2 h4{
-    font-family: 'Roboto', sans-serif;
-}
-
-#hero-box{
-	position:relative;
-	text-align: center;
-	color:#023047;
-	margin-top: -30px;
-	
-}
-
-.logo{
-	width: 8%;
-	height: 8%;
-}
-.home-title{
-	position: absolute;
-	top: 30%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 100px;
-	
-}
-header #name{
-	padding-top: 5%;
-	font-size: 300%;
-}
-
-div content{
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-header{
-    background-color: #219ebc;
-	margin-top: -29px;
-}
-
-#hero-img{
-	opacity: .5;
-}
-
-.button-box{
-	position: absolute;
-	top: 65%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 30px;
-	text-align: center;
-	border: 10px solid #ffb703;
-	background-color: #ffb703;
-	border-radius: 12px;
-	box-shadow: 5px 5px 3px gray;
-}
-
-.button{
-    text-align: center;
-}
-
-main section{
-    text-align: center;
-}
-
-#background{
-	height: 625px;
-	background-color: #023047;
-	position: relative;
-	margin-top: -20px;
-}
-
-#home-grid{
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr;
-}
-
-#companies h3{
-	grid-row:1/2;
-	font-size: 40px;
-	margin-top: -10px;
-	padding: 15px;
-	color: white;
-}
-#companies{
-	background-color: #023047;
-
-}
-
-#A4{
-	grid-row:2/3;
-	position: relative;
-	text-align: center;
-	border: 10px solid black;
-	border-radius: 12px;
-	margin:20px;
-	background-color: #219ebc;
-	color:white;
-	box-shadow: 5px 5px 3px grey;
-
-}
-
-#hospital{
-	grid-row:3/4;
-	position: relative;
-	text-align: center;
-	border: 10px solid black;
-	border-radius: 12px;
-	margin: 20px;
-	background-color: #219ebc;
-	color: white;
-	box-shadow: 5px 5px 3px grey;
-}
-#hotel{
-	grid-row: 4/5;
-	position: relative;
-	text-align: center;
-	border: 10px solid black;
-	background-color: #219ebc;
-	border-radius: 12px;
-	margin:20px;
-	color: white;
-	box-shadow: 5px 5px 3px grey;
-} 
+ 
