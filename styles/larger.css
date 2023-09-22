@@ -27,4 +27,19 @@
     padding: 1rem;
     background: black;
   }
+  .navigation{
+    grid-column: 1/span 4;
+  }
+  #mode {
+    position: absolute;
+    top: 1rem;
+    right: 4rem;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  
+
+  header{
+    position:relative
+  }
 }
