@@ -105,11 +105,11 @@ nav {
 	margin:10px auto; 
 	padding:20px;
 	background-color: #219ebc;
-	color:white;
+	color:black;
 	box-shadow: 5px 5px 3px grey;
 } 
 .weather-card {
-	color: white;
+	color: black;
 	border: 10px solid black;
 	display:flex;
 	flex-direction: column;
@@ -118,7 +118,7 @@ nav {
 }
 
 #community{
-	color: white;
+	color: black;
 	border: 10px solid black;
 	margin:10px;
 	display:flex;
