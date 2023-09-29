@@ -4,8 +4,9 @@
     grid-template-columns: 1fr 1fr;
    }
 
-   img{
-    max-width: 30%;
+  #temple img{
+    max-width: 100%;
+    height:auto;
    }
 
    h1{
@@ -37,5 +38,24 @@
     font-size: 3rem;
     cursor: pointer;
   }
+
+  .hero-image {
+    grid-column: 1/span 2;
+  }
+
+  .herolabel {
+ 
+    position: absolute;
+    top: 550px;
+    left: 30px;
+  }
+
+  
+.herolabel p {
+  font-size: 2rem;
+}
+iframe{
+  width:100%;
+}
   
 }
