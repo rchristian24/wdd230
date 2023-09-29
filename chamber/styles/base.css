@@ -115,6 +115,7 @@ nav {
 	display:flex;
 	flex-direction: column;
 	background-color: #219ebc;
+	margin: 10px;
 
 }
 
@@ -127,6 +128,34 @@ nav {
 	align-items: flex-end;
 	background-color: #219ebc;
 
+}
+
+.weather-img{
+	width:30%;
+	margin:0 auto;
+}
+
+.weather-card h3{
+	margin: 0 auto;
+	font-size: 2rem;
+
+}
+.weather-card p{
+	margin: 0 auto;
+	font-size: 2rem;
+}
+
+#community h3{
+	margin: 0 auto;
+	font-size: 2rem;
+}
+
+footer{
+	background-color: #219ebc;
+}
+
+.footer{
+	text-align: center;
 }
 
 /* Hamurger Menu small view navigation */
@@ -278,13 +307,16 @@ nav {
 	margin-left: 20px;
 	margin-right: 10px;
   }
-
-  .pictures{
-    margin: 0 auto;
-    /* width: 400px; */
-    display: flex;
-    flex-direction: column;
+.hero picture{
+	
+	width: 100%;
 }
+
+.hero img{
+	width: 100%;
+	height: auto;
+}
+
 
 
  

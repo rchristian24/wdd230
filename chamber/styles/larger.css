@@ -42,7 +42,18 @@
 		align-items: center;
 	}
 
-	
+.hero{
+	margin-top: 20px;
+}
+
+main .hero picture{
+	grid-column: 2 / 4;
+
+}
+ .hover:hover{
+	mix-blend-mode: difference;
+}
+
 
 	
 	
