@@ -221,7 +221,6 @@ footer{
 /*discover page */
 .events{
 	border:10px solid black;
-	
 	display:flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -232,8 +231,11 @@ footer{
 	padding:28px;
 	box-shadow: 5px 5px 3px grey;
 	font-family: 'Roboto', sans-serif;
-	
+	margin-bottom: 20px;
+}
 
+.visits{
+	font-size: xx-large;
 }
 .sidebar{
 	margin:20px;
@@ -268,14 +270,14 @@ footer{
   
   .weekdays li {
 	display: inline-block;
-	width: 13.6%;
+	width: 12.3%;
 	color: #666;
 	text-align: center;
   }
 
   .days {
 	padding: 10px 0;
-	background: #eee;
+	background: #8ecae6;
 	margin: 0;
 	
   }
@@ -283,29 +285,28 @@ footer{
   .days li {
 	list-style-type: none;
 	display: inline-block;
-	width: 13.6%;
+	width: 12.3%;
 	text-align: center;
 	margin-bottom: 5px;
-	font-size:12px;
+	font-size:large;
 	color: #777;
   }
 
   .demographics{
 	border:10px solid black;
-	margin:10px;
 	display:flex;
 	flex-direction: column;
 	align-items: flex-end;
 	align-items: center;
 	text-align: center;
 	border-radius: 12px;
-	margin:10px auto; 
-	padding:20px;
+	margin:0px auto; 
+	padding:50px;
 	box-shadow: 5px 5px 3px grey;
 	font-family: "Alegreya Sans", sans-serif;
 	font-size: 18px;
-	margin-left: 20px;
-	margin-right: 10px;
+	margin-top: 20px;
+	line-height: 30px
   }
 .hero picture{
 	
@@ -316,6 +317,18 @@ footer{
 	width: 100%;
 	height: auto;
 }
+
+.hero title{
+	text-align: center;
+	font-size: x-large;
+
+}
+
+p{
+	text-align: center;
+	font-size: x-large;
+}
+
 
 
 

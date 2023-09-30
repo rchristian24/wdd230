@@ -45,14 +45,25 @@
 .hero{
 	margin-top: 20px;
 }
-
-main .hero picture{
-	grid-column: 2 / 4;
+main{
+	grid-column-end:span 2;
 
 }
- .hover:hover{
-	mix-blend-mode: difference;
+.visits{
+	margin-top: 300px;
+	margin-bottom:400px;
 }
+.events{
+	margin-top: 100px;
+	margin-bottom: 500px;
+}
+.demographics{
+	margin-top: 200px;
+	
+}
+
+ .hero img:hover {box-shadow: 0 0 50px #333;}
+
 
 
 	
