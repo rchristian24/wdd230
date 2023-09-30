@@ -1,7 +1,7 @@
 @media (min-width: 37.5em) {
 	
 	#menu {
-		display: none; /* hide hamburger button */
+		display: none; 
 	}
 
 	.navigation {
@@ -63,11 +63,6 @@ main{
 }
 
  .hero img:hover {box-shadow: 0 0 50px #333;}
-
-
-
 	
-	
-		
 
 }
