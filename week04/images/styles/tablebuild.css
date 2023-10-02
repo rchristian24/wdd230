@@ -1,0 +1,47 @@
+:root{
+    --black: hsl(0,100%,0%);
+    --grey: hsl(0,0%,20%);
+    --white: hsl(0,100%,100%);
+    --zebra: hsl(0,0%,70%);
+    --border: hsl(0,0%,50%);
+    --textgrey:hsl(0,0%,40%);
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+table{
+    margin: 0 auto;
+    margin-top:50px;
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+#title, #space{
+
+    color: var(--white);
+    background-color: var(--black);
+}
+td{
+    border: 1px solid var(--border);
+    padding: 7px 15px;
+    text-align: center;
+}
+
+caption{
+    caption-side: bottom;
+    color: var(--textgrey);
+    font-size: small;
+}
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+th{
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+
+ 
