@@ -47,13 +47,13 @@
       </ul> 
     </nav>
     <main>
+    <div id="messageValidator"></div>
     <form method="get" action="thanks.html">
         <fieldset>
             <legend>User Information</legend>
                 <label class="top">Username* <input type="text" name="username" required></label>
                 <label class="password">Password*<input type="password" name="password" 
                 pattern="^[A-Za-z\d]{8,}$" required title="at least 8 characters, letters and numbers"></label>
-                <div id="messageValidator"></div>
                 <label id="repassword">Re-enter Password* <input type="password" placeholder="confirm password" name="repassword" required></label>
                 <label class="top">Email* <input type="email" name="email" required title="Please enter a valid email address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
         </fieldset>

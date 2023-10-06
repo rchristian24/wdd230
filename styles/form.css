@@ -3,6 +3,13 @@
     --dblue:navy;
     --r:red;
 }
+   
+form{
+    order:0;
+}
+div{
+    order:1;
+}
 form fieldset{
     margin: 2rem 0;
     border: 1px solid var(--blue);
