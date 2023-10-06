@@ -43,9 +43,22 @@ form label{
 	flex: 1 1 auto;
 } 
 
-.top, #password, #repassword{
+.top, .password, #repassword{
     color: var(--r);
    
+}
+.password input:valid{
+   background-color:  green;
+}
+.password input:invalid{
+   background-color: var(--r);
+}
+input:focus{
+    outline:none;
+}
+#repassword :invalid{
+    background-color: var(--r);
+    animation: shaketext 500ms;
 }
 
 .submitBtn{

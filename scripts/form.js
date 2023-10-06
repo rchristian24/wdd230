@@ -9,14 +9,23 @@ function displayRatingValue() {
     rangevalue.innerHTML = range.value;
 }
 
-var password = document.getElementById("password");
-var repassword = document.getElementById("repassword");
+const password = document.querySelector(".password");
+const validate = document.querySelector("#repassword");
+const message = document.querySelector("#messageValidator");
 
-function validate(){
-	if (password.value != repassword.value){
-		repassword.setCustomValidity("Passwords Do Not Match")
+validate.addEventListener("focusout", check);
+function check(){
+	if (password.value != validate.value){
+		message.textContent= "Passwords Do Not Match!";
+		message.style.visibility="show";
+		validate.value ="";
+		validate.focus();
 	}
 	else{
-		repassword.setCustomValidity('');	}
+		message.style.display="none";
+		validate.style.color="000";
+	} 
 }
+
+
 
