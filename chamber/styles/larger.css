@@ -64,5 +64,9 @@ main{
 
  .hero img:hover {box-shadow: 0 0 50px #333;}
 	
+ /*Join*/
+ form label.sbs{
+	padding: .4rem 0;
+}
 
 }
