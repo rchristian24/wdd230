@@ -63,7 +63,7 @@ form label{
 input:focus{
     outline:none;
 }
-#repassword :invalid{
+#repassword:invalid{
     background-color: var(--r);
     animation: shaketext 500ms;
 }

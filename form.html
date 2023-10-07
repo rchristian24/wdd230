@@ -51,9 +51,9 @@
         <fieldset>
           <legend>User Information</legend>
           <label class="top">Username* <input type="text" name="username" required></label>
-          <label class="password">Password*<input type="password" name="password" 
+          <label class="password">Password*<input id="password" type="password" name="password" 
             pattern="^[A-Za-z\d]{8,}$" required title="at least 8 characters, letters and numbers"></label>
-            <label id="repassword">Re-enter Password* <input type="password" placeholder="confirm password" name="repassword" required></label>
+            <label id="valid">Re-enter Password* <input id="repassword" type="password" placeholder="confirm password" name="repassword" required></label>
             <label class="top">Email* <input type="email" name="email" required title="Please enter a valid email address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
           </fieldset>
           
@@ -79,6 +79,7 @@
           <input type="submit" value="Evaluate Page" class="submitBtn">
         </form>
         <div id="messageValidator"></div>
+       
       </main>
     
     <footer>
@@ -91,7 +92,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/getHamButton.js"></script>
     <script src="scripts/darkMode.js"></script>
-    <script src="scripts/numVisits.js"></script>
     <script src="scripts/form.js"></script>
   </body>
 </html>

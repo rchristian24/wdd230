@@ -9,20 +9,22 @@ function displayRatingValue() {
     rangevalue.innerHTML = range.value;
 }
 
-const password = document.querySelector(".password");
-const validate = document.querySelector("#repassword");
+const password = document.getElementById("password");
+const validate = document.getElementById("repassword");
 const message = document.querySelector("#messageValidator");
 
 validate.addEventListener("focusout", check);
 function check(){
 	if (password.value != validate.value){
 		message.textContent= "Passwords Do Not Match!";
-		message.style.visibility="show";
+		message.style.visibility="visible";
 		validate.value ="";
-		validate.focus();
+		password.value =""
+		password.focus();
+		console.log("check different passwords");
 	}
 	else{
-		message.style.display="none";
+		message.style.visibility="hidden";
 		validate.style.color="000";
 	} 
 }

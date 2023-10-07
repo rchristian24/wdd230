@@ -333,10 +333,9 @@ p{
 	text-align: center;
  }
  form fieldset{
-    margin: 2rem 2rem;
-    border: 1px solid #445b89;
-    border-radius: 10px;
+    margin: 2rem 5rem;
     padding: .5rem 2%;
+	
 	
 }
 form legend{
@@ -355,8 +354,6 @@ form label.top input, form label.top select{
     -webkit-apppearance: none;
     display: block;
     font-size:  1rem;
-    border: 1px solid #999;
-    border-radius: 4px;
     padding: .75rem;
     color: #555;
     width: 100%;
@@ -402,14 +399,42 @@ form label.top input:required:valid{
 	-webkit-apppearance: none;
     display: block;
     font-size:  1rem;
-    border: 1px solid #999;
-    border-radius: 4px;
     padding: 12px 20px;
     color: #555;
     width: 100%; 
     background-color: rgba(0,0,0,.1);
  }
 
+ .time{
+	margin-left: 20px;
+ }
+
+ #benefits{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding:30px;
+	font-size: 100%;
+	margin-right: 60px;
+
+ }
+ h1 #application{
+	font-size: 100%;
+	display: flex;
+	justify-content: center;
+	
+ }
+ #thanksHead{
+	display:flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: 'Roboto',sans-serif;
+ }
+ #thanks{
+	margin-bottom: 250px;
+	font-family: 'Roboto',sans-serif;
+ }
 
 
 

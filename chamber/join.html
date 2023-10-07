@@ -34,23 +34,40 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="join.html">Join</a></li>
           </ul>
         </nav>
       </header>
 
      
-
+      <div id="benefits">
+        <h2>Non-Profit</h2>
+        <p>A non-profit membership does not cost you anything but your time and experience.</p>
+        <p>With a non-profit membership, you and your company are able to enjoy the benefits </p>
+        <p>of the many classes and networking extravaganzas.</p>
+        <hr>
+        <h2>Bronze</h2>
+        <p>A Bronze membership only costs an annual fee of $5,000. You get the same benefits </p>
+        <p>as a non-profit membership but with even more opportunites for specialized training.</p>
+        <hr>
+        <h2>Silver</h2>
+        <p>With a Silver Membership you get to be among the first to choose from our special events, receive even more key</p>
+        <p>training for you and your comapny, and increased discounts by 5%.</p>
+        <hr>
+        <h2>Gold</h2>
+        <p>A Gold Membership gets you where you want to go, fast! Not only do you get specialized training, first pick at</p>
+        <p>special events, and increased discounts by 10%, you are also eligible to free advertising on our website!</p>
+       </div>
       <main>
-        <h1>Newport Chamber of Commerce Application</h1>
+        <h1 id="application">Newport Chamber of Commerce Application</h1>
         <form method="get" action="thanks.html">
         <fieldset>
             <legend>Applicant Information</legend>
             <label class="top">First Name*<input type="text" name="fname" required></label>
             <label class="top">Last Name*<input type="text" name="lname" required></label>
-            <label class="top">Title or Position<input type="text" name="title" placeholder="at least 7 characters required"></label>
+            <label class="top">Title or Position<input id="title" type="text" name="title" placeholder="at least 7 characters required" pattern="^[A-Za-z\s\d\-]{7,}$"></label>
             <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Phone*<input type="tel" name="phone" required></label>
             <label class="top">Business/Organization Name*<input type="text" name="business" required></label>
         </fieldset> 
 
@@ -66,14 +83,13 @@
             <legend>Description</legend>
             <label class="bottom">Please Describe your Business/Organization<input type="text" name="description"></label>            
         </fieldset> 
-
         <fieldset>
-            
-            <label class="time"><input type="hidden" name="timestamp"></label>            
-        </fieldset> 
 
-            <input type="submit" value="Join Newport Chamber of Commerce" class="submitBtn">
-        </form>
+          <label class="time"><input type="hidden" name="timestamp">todays date: <span id="today"></span>  timestamp: <span id="time">-</span></label>            
+        </fieldset>
+
+        <input type="submit" value="Join Newport Chamber of Commerce" class="submitBtn">
+      </form>
     
        
       </main>
