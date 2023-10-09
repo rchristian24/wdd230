@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Roboto Slab', serif;
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+
+}
+h1, h2{
+    text-align: center;
+    color: #414262;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    box-shadow: 20px 20px 50px 15px grey;
+    max-width: 100%;
+    height:auto;
+}
+p{
+    text-align: center;
+    line-height: 5px;
+}
+div {
+    border:1px solid rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 20px;
+    background-color: #DCDCE5;
+}
+section{
+    border: 1px solid #25423D;
+    box-shadow: 2px 2px 2px 2px #25423D;
+    border-radius: 2px;
+    max-width: 500px;
+    justify-content: center;
+    margin:0 auto;
+    padding:10px;
+    background-color: #B4B5C2;  
+    margin:10px;
+}

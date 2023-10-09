@@ -1,0 +1,31 @@
+{
+    "familyName": "Smith",
+    "dateOfMoveIn" : "January 1, 2023",
+    "numberOfRecords" : 4,
+    "visitedByBishop" : true,
+    "familyMembers" : [
+        {
+            "name" : "Bob Smith" ,
+            "gender" : "Male",
+            "birthdate" : "October 30, 1980" 
+        },
+
+        {
+            "name" : "Jane Smith",
+            "gender" : "Female" ,
+            "birthdate" : "September 12, 1980" 
+        },
+
+        {
+            "name" : "John Smith" ,
+            "gender" : "Male" ,
+            "birthdate" : "July 4, 2020" 
+        },
+
+        {
+            "name" : "Mary Smith" ,
+            "gender" : "Female" ,
+            "birthdate" :"July 4, 2020"
+        }
+    ]
+}
