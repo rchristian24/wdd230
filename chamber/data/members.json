@@ -1,0 +1,73 @@
+{
+    "members" : [
+        {
+            "name": "Alexander Backman",
+            "address": "202 Lancaster Ave., Newport, RI 02842",
+            "phone" : "401-222-1111",
+            "url" : "https://ilovenewport.com",
+            "img" : "images/tourist.webp",
+            "membership" : "Gold",
+            "company" : "Tourist Trap"
+        },
+
+        {
+            "name" : "Betty Cauliflower",
+            "address" : "303 Montazuma Dr., Newport, RI 02842",
+            "phone" : "401-333-2222",
+            "url" : "https://bettysbombers.com",
+            "img" : "images/full-bloom.webp",
+            "membership" : "Non-profit",
+            "company" : "Betty's Bloomers"
+        },
+
+        {
+            "name" : "Carl Dodge",
+            "address" : "404 Nightfall Ln., Newport RI 02842",
+            "phone": "401-444-3333",
+            "url" : "https://cantfly.com",
+            "img" : "images/balloon.webp",
+            "membership" : "Silver",
+            "company" : "Carl's Balloons Rides"
+        },
+
+        {
+            "name": "Dion Egbert",
+            "address" : "505 Mountain Sky Dr., Newport RI 02842",
+            "phone" : "401-555-4444",
+            "url" : "https://canadianbacon.com",
+            "img" : "images/butcher.webp",
+            "membership" : "Non-profit",
+            "company" : "Butcher Bacon"
+        },
+
+        {
+            "name" : "Elizabeth Frances",
+            "address" : "505 Harlequin Way, Newport RI 02842",
+            "phone" : "401-666-5555",
+            "url" : "https://FancyFrances.com",
+            "img" : "images/flower.webp",
+            "membership" : "Bronze",
+            "company" : "Fancey Frances Flowers"
+        },
+
+        {
+            "name": "Farthington Gordon",
+            "address" : "606 Irrational Way, Newport RI 02842",
+            "phone" : "401-777-6666",
+            "url" : "https://mustache.com",
+            "img" : "images/mustache.webp",
+            "membership" : "Silver",
+            "company" : "Mustache Mayhem"
+        },
+
+        {
+            "name" : "Gretchen Horatio",
+            "address" : "707 Jumping Jack Hill, Newport RI 02842",
+            "phone" : "401-888-7777",
+            "url" : "https://boogie.com",
+            "img" : "images/dance.webp",
+            "membership" : "Gold",
+            "company" : "Dancing Feet Dance Studio"
+        }
+    ]
+}

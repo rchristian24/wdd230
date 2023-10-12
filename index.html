@@ -100,15 +100,19 @@
         </ul>
       </section>
       <section class="card">
+
         <h3>Information</h3>
         <h4>Weather</h4>
         <div id="weather">
-          <img src="images/sun.webp" alt="sun" width="100" height="100" />
-          <p>Sunny High 89 Low 45</p>
-          <hr />
+          <p>The current temperature in Tucson, Arizona is <span id="current-temp"></span></p>
+          <figure>
+              <img id="weather-icon" src="" alt="">
+              <figcaption></figcaption>
+          </figure>
+          
         </div>
-        <h4>Visits</h4>
-        <p class="visits">0</p>
+        <h4 id="visits">Visits</h4>
+        <p ><span class="visits"></span></p>
       </section>
     </main>
     <iframe
@@ -127,6 +131,8 @@
         Last Modified:<span id="modified"></span>
       </div>
     </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/getHamButton.js"></script>
     <script src="scripts/darkMode.js"></script>

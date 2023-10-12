@@ -435,6 +435,84 @@ form label.top input:required:valid{
 	margin-bottom: 250px;
 	font-family: 'Roboto',sans-serif;
  }
+ /*Discover Page*/
+.menu{
+	margin: 1rem auto;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: .5rem;
+	background-color: #219ebc;
+	text-align: center;
+}
+
+#top{
+	margin-top:-20px;
+}
+
+.menu button{
+	padding: 1rem;
+	font-size: 20px;
+	margin: 8px;
+	box-shadow: 5px 5px 5px 5px;
+	border-radius: 20%;
+}
+
+
+h2{
+	text-align: center;
+	color:#023047;
+	font-family: 'Roboto', sans-serif;
+}
+.list section h2{
+	font-size: 1rem;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+
+#member-cards{
+	
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+	margin: 8px;
+	
+}
+
+section{
+    border: 1px solid #25423D;
+    box-shadow: 2px 2px 2px 2px #25423D;
+    border-radius: 2px;
+    max-width: 500px;
+    justify-content: center;
+    margin:0 auto;
+    padding:10px;   
+    margin:10px;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+}
+
+.list section{
+	display:grid;
+	grid-template-columns: repeat(1fr,7);
+	margin: 0;
+	padding:.25rem;
+}
+
+.list section img{
+	display: none;
+}
+.list section title{
+	display:none;
+
+}
+
+.list section p .membership{
+	display:none;
+}
 
 
 

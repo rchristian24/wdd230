@@ -24,4 +24,4 @@ function getDate(){
     if (mm<10) mm ='0' + mm;
     return (mm + "-" + dd + "-" + yy);
 }
-document.getElementById("today").textContent = getDate();
+document.getElementById("date").textContent = getDate();

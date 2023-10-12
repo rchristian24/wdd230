@@ -73,4 +73,11 @@ h1 #application{
 	font-size: 200%;
 }
 
+/*Discover*/
+#top{
+	margin-top:-20px;	
+	grid-column:1/span 3;
+}
+
+
 }

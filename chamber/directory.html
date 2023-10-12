@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newport Chamber of Commerce Homepage</title>
+    <meta name="description" content="Homepage for the Newport Chamber that holds information on weather, community activities, businessess, and links">
+    <meta name="author" content="Rachel Christian">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://wallpapers.com/images/featured/beautiful-ocean-pictures-33b2ht9d8bvriqu6.webp">
+    <meta property="og:url" content="https://wallpapers.com/beautiful-ocean-pictures">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="content">
+      <header>
+        <h1 id="name">Newport Chamber of Commerce</h1>
+        <img class="logo" src="images/water.png" alt="logo">
+        <nav>
+          <button id="menu"></button>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="top">
+        <div class="menu">
+            <button id="grid"> Grid</button>
+            <button id="list">List</button>
+        </div>
+        
+       <article id="member-cards"></article>
+            
+      </main>
+
+    </div>
+      <footer>
+        <div class="footer">
+          &copy;<span id="date"></span>| chambermail@gmail.com | (555)231-0287 | Rachel Christian | WDD230 Chamber of Commerce Project |
+          <br>
+          Last Modified:<span id="modified"></span>
+        </div>
+      </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/getDate.js"></script>
+    <script src="scripts/directory.js"></script>
+  </body>
+</html>
