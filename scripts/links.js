@@ -9,20 +9,22 @@ async function getLinks(){
     displayLinks(data.weeks);
 }
 
+
 const displayLinks = (weeks) =>{
+
     weeks.forEach((week) => {
         const card = document.createElement('section');
         const heading = document.createElement('h3');
         heading.textContent = ('Learning Activities');
+        const listItem = document.createElement('li');
+       
+        listItem.innerHTML = `${week.week}:`;
+        console.log(listItem);
 
         week.links.forEach((link) => {
+            listItem.innerHTML += ` <a href="${link.url}">${link.title}</a>|`
 
-            const anchor = document.createElement('a');    
-            const title = document.createTextNode(`${link.title} | `);
-
-            anchor.appendChild(title);
-            anchor.href = `${link.url}`;  
-            card.appendChild(anchor);
+            card.appendChild(listItem);
         })
        console.log(week);
                  
