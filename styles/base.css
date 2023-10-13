@@ -72,6 +72,17 @@ h3 {
   text-align: center;
   color: white;
 }
+#cards::before{
+  content: "Learning Activities";
+  background-color: #023047;
+  color: white;
+  padding:2px;
+  font-family: 'Mooli', sans-serif;
+  line-height: 50px;
+}
+#cards{
+  margin: 15px;
+}
 
 h5{
   display: inline-block;

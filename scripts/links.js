@@ -11,21 +11,23 @@ async function getLinks(){
 
 const displayLinks = (weeks) =>{
     weeks.forEach((week) => {
-        week.links.forEach(link)
+        const card = document.createElement('section');
+        const heading = document.createElement('h3');
+        heading.textContent = ('Learning Activities');
+
+        week.links.forEach((link) => {
+
+            const anchor = document.createElement('a');    
+            const title = document.createTextNode(`${link.title} | `);
+
+            anchor.appendChild(title);
+            anchor.href = `${link.url}`;  
+            card.appendChild(anchor);
+        })
        console.log(week);
-            const card = document.createElement('section');
-            const link = document.createElement('a');    
                  
-        const title = document.createTextNode(`${week.link} | `);
-
-        link.appendChild(title);
-        
-       
-        link.href = `${week.url}`;  
-       
-        card.appendChild(link);
-
         cards.appendChild(card);
+        
     });
 }
 getLinks();
