@@ -11,11 +11,12 @@ async function getMemberData(){
 const displayMembers = (members) =>{
     members.forEach(member =>{
         const card = document.createElement("section");
+
         const name = document.createElement("h2");
         const address = document.createElement("p");
         const phone = document.createElement("p");
-        const link = document.createElement("url");
-        const linkTitle = document.createElement("title");
+        const url = document.createElement("a");
+       
         const img = document.createElement("img");
         const membership = document.createElement("p");
         const company = document.createElement("p");
@@ -32,14 +33,12 @@ const displayMembers = (members) =>{
         img.setAttribute('width', '340');
         img.setAttribute('height', '440');
         
-        link.innerHTML = `${member.url}`;
-        linkTitle.textContent = `${member.url}`;
+        url.textContent = `${member.url}`;
              
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(link);
-        card.appendChild(linkTitle);
+        card.appendChild(url);
         card.appendChild(img);
         card.appendChild(membership);
         card.appendChild(company);

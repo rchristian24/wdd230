@@ -505,13 +505,13 @@ section{
 .list section img{
 	display: none;
 }
-.list section title{
-	display:none;
 
+.list section a{
+	display: none;
 }
 
-.list section p .membership{
-	display:none;
+.list section:nth-child(even){
+	background-color: #e0f1f9;
 }
 
 
