@@ -496,8 +496,7 @@ section{
 }
 
 .list section{
-	display:grid;
-	grid-template-columns: repeat(1fr,7);
+	
 	margin: 0;
 	padding:.25rem;
 }
