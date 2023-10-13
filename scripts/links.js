@@ -11,6 +11,7 @@ async function getLinks(){
 
 const displayLinks = (weeks) =>{
     weeks.forEach((week) => {
+        week.links.forEach(link)
        console.log(week);
             const card = document.createElement('section');
             const link = document.createElement('a');    

@@ -3,7 +3,7 @@
     "weeks":[
         {
             "week":"Week 1",
-            "link":[
+            "links":[
 
                 {"url":"week01/media-query.html" ,"title": "Media Query"},
                 
@@ -14,7 +14,7 @@
         },
         {
             "week":"Week 2",
-            "link":[
+            "links":[
 
                 {"url": "week02/design.html", "title": "Design Principles"},
                 
@@ -29,7 +29,7 @@
 
         {
             "week":"Week 3",
-            "link":[
+            "links":[
 
                 {"url": "week03/images/landscape.webp", "title": "WebP"},
                 
@@ -47,7 +47,7 @@
 
         {
             "week":"Week 4",
-            "link":[
+            "links":[
 
                 {"url": "https://codepen.io/rchristian24/pen/BavPReR","title": "Pseudo-class"},
                 
@@ -65,7 +65,7 @@
 
         {
             "week":"Week 5",
-            "link":[
+            "links":[
 
                 {"url": "https://codepen.io/rchristian24/pen/LYMqNxb","title": "Pseudo-element"},
                 
