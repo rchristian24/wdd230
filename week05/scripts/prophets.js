@@ -8,7 +8,7 @@ async function getProphetData(){
 }
 
 const displayProphets = (prophets) =>{
-    prophets.forEach(prophet => {
+    prophets.forEach((prophet) => {
         
         const card = document.createElement('section');
         const fullName = document.createElement('h2');

@@ -1,24 +1,30 @@
 const baseURL = "https://rchristian24.github.io/wdd230";
 const linksURL = "https://rchristian24.github.io/wdd230/data/links.json";
+const cards =  document.querySelector('#cards');
 
 async function getLinks(){
     const response = await fetch(linksURL);
     const data = await response.json();
     console.log(data);
+    displayLinks(data.weeks);
 }
-getLinks();
 
 const displayLinks = (weeks) =>{
-    weeks.forEach(week =>{
-        const title = document.createElement('title');
-        const link = document.createElement('url');
+    weeks.forEach((week) => {
+       console.log(week);
+            const card = document.createElement('section');
+            const link = document.createElement('a');    
+                 
+        const title = document.createTextNode(`${week.link} | `);
 
-        title.textContent = `${week.title} | ` ;
-        link.innerHTML = `${week.url}`;
+        link.appendChild(title);
+        
+       
+        link.href = `${week.url}`;  
+       
+        card.appendChild(link);
 
-        week.appendChild(title);
-        week.appendChild(link);
-
-        weeks.appendChild(week);
+        cards.appendChild(card);
     });
 }
+getLinks();

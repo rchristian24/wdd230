@@ -5,25 +5,25 @@
             "week":"Week 1",
             "link":[
 
-                {"url":"week01/media-query.html"},
-                {"title": "Media Query"},
+                {"url":"week01/media-query.html" ,"title": "Media Query"},
+                
 
-                {"url": "week01/holygrail.html"},
-                {"title": "Holy Grail"}
+                {"url": "week01/holygrail.html", "title": "Holy Grail"}
+               
                 ]   
         },
         {
             "week":"Week 2",
             "link":[
 
-                {"url": "week02/design.html"},
-                {"title": "Design Principles"},
+                {"url": "week02/design.html", "title": "Design Principles"},
+                
 
-                {"url": "https://codepen.io/rchristian24/pen/RwELdbz"},
-                {"title": "Responsive Hamburger Menu"},
+                {"url": "https://codepen.io/rchristian24/pen/RwELdbz", "title": "Responsive Hamburger Menu"},
+                
 
-                {"url": "week02/bom.html"},
-                {"title": "DOM Manipulation"}
+                {"url": "week02/bom.html", "title": "DOM Manipulation"}
+                
             ]
         },
 
@@ -31,17 +31,17 @@
             "week":"Week 3",
             "link":[
 
-                {"url": "week03/images/landscape.webp"},
-                {"title": "WebP"},
+                {"url": "week03/images/landscape.webp", "title": "WebP"},
+                
 
-                {"url": "week03/lazyload.html"},
-                {"title": "Lazy Load Example"},
+                {"url": "week03/lazyload.html","title": "Lazy Load Example"},
+                
 
-                {"url": "week03/responsive-images.html"},
-                {"title": "Responsive Images"},
+                {"url": "week03/responsive-images.html", "title": "Responsive Images"},
+                
 
-                {"url": "week03/bom.html"},
-                {"title": "Web Storage"}
+                {"url": "week03/bom.html", "title": "Web Storage"}
+                
             ]   
         },
 
@@ -49,17 +49,17 @@
             "week":"Week 4",
             "link":[
 
-                {"url": "https://codepen.io/rchristian24/pen/BavPReR"},
-                {"title": "Pseudo-class"},
+                {"url": "https://codepen.io/rchristian24/pen/BavPReR","title": "Pseudo-class"},
+                
 
-                {"url": "week04/images/CSScombinators.png"},
-                {"title": " CSS Combinators"},
+                {"url": "week04/images/CSScombinators.png","title": " CSS Combinators"},
+                
 
-                {"url": "week04/tablebuild.html"},
-                {"title": "Table"},
+                {"url": "week04/tablebuild.html","title": "Table"},
+                
 
-                {"url": "week04/form-start/index.html"},
-                {"title": "Form"}
+                {"url": "week04/form-start/index.html","title": "Form"}
+                
             ]
         },
 
@@ -67,17 +67,17 @@
             "week":"Week 5",
             "link":[
 
-                {"url": "https://codepen.io/rchristian24/pen/LYMqNxb"},
-                {"title": "Pseudo-element"},
+                {"url": "https://codepen.io/rchristian24/pen/LYMqNxb","title": "Pseudo-element"},
+                
 
-                {"url": "week05/new-ward-members.json"},
-                {"title": "JSON"},
+                {"url": "week05/new-ward-members.json","title": "JSON"},
+                
 
-                {"url": "week05/prophets.html"},
-                {"title": "The Fetch API"},
+                {"url": "week05/prophets.html","title": "The Fetch API"},
+                
 
-                {"url": "week05/weather.html"},
-                {"title": "Consuming a Weather API"}
+                {"url": "week05/weather.html","title": "Consuming a Weather API"}
+                
             ]
         }
     ]
