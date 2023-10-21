@@ -1,17 +1,20 @@
-const cards = document.querySelector("#member-cards");
-const companyHome = document.querySelector("#companies");
-const memberInfo = "data/members.json"
+const spotlights = document.querySelector("#spotlight");
+const memberInfo = "data/members.json";
+var memberData = {}; 
 
 async function getMemberData(){
     const response = await fetch(memberInfo);
-    const data = await response.json();
-    console.log(data);
-    displayMembers(data.members);  
+    memberData = await response.json();
+    console.log(memberData);
 }
 
+const findMemberStatus =async () =>{
+    await getMemberData();
+    memberData.members = memberData.members.filter(member => member.membership == "Gold" || member.membership == "Silver");
+    console.log(memberData.members);
+    memberData.members = memberData.members.sort(() => 0.5 - Math.random()).splice(0,2);
+    memberData.members.forEach(member =>{
 
-const displayMembers = (members) =>{
-    members.forEach(member =>{
         const card = document.createElement("section");
         
         const name = document.createElement("h2");
@@ -42,27 +45,11 @@ const displayMembers = (members) =>{
         card.appendChild(img);
         card.appendChild(membership);
         card.appendChild(company);
+      
+        spotlights.appendChild(card);
+
+           
         
-        cards.appendChild(card);      
     })
 }
-
-getMemberData()
-
-const gridButton = document.querySelector("#grid");
-const listButton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-gridButton.addEventListener("click",() =>{
-    display.classList.add("grid");
-    display.classList.remove("list");
-});
-
-listButton.addEventListener("click", showList);
-
-function showList(){
-    display.classList.add("list");
-    display.classList.remove("grid");
-
-}
-
+findMemberStatus();

@@ -37,6 +37,9 @@ img{
 	width: 100%;
 	height: auto;
 }
+hr{
+	margin-bottom: 5px;
+}
 
 #hero-img{
 	opacity: 1;
@@ -63,6 +66,47 @@ nav {
 	margin: 1rem auto;
 }
 
+#banner{
+	background-color: #ffb703;	
+	position:absolute;
+	z-index: 1;
+	left:0;
+	right:0;
+	text-align: center;
+	line-height: 1.4;
+	box-shadow: 0 4px 10px rgba(120,120,120,.6);
+}
+
+.banner_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.2rem 2.8rem;
+	font-weight: 500;
+}
+
+.banner_button::before{
+	content:'X';
+}
+
+.banner_button{
+	position:absolute;
+	right:.7rem;
+	cursor:pointer;
+	transition: all 200ms ease-in-out;
+	height: 2rem;
+	width: 2rem;
+}
+
+.banner_button:hover{
+	transform:scale(1.1);
+}
+.banner_text{
+	font-size: 15px;
+	text-align: center;
+	
+}
+
 .button-box{
 	position: absolute;
 	top: 65%;
@@ -87,7 +131,8 @@ nav {
 	margin-top: -10px;
 }
 
-#spotlight {
+
+#spotlightHeader {
 	background-color: #023047;
 	text-align: center;
 	color: white;
@@ -95,44 +140,37 @@ nav {
 	font-size: 2rem;
 }
 
-#A4, #hospital, #hotel{
+#spotlight{
+	
+	background-color: #023047;
+	padding-bottom: 10px;
+}
 
-	width: 100%;
-	max-width: 250px;
-	align-items: center;
-	text-align: center;
-	border: 10px solid black;
-	border-radius: 12px;
-	margin:10px auto; 
-	padding:20px;
-	background-color: #219ebc;
-	color:black;
-	box-shadow: 5px 5px 3px grey;
-} 
+#spotlight section{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
 .weather-card {
 	color: black;
 	border: 10px solid black;
+	border-radius: 12px;
+	box-shadow: 5px 5px 3px grey;
 	display:flex;
 	flex-direction: column;
 	background-color: #219ebc;
-	margin: 10px;
+	margin: 0 auto;
 
 }
 
 #community{
 	color: black;
 	border: 10px solid black;
-	margin:10px;
-	display:flex;
-	flex-direction: column;
-	align-items: flex-end;
 	background-color: #219ebc;
-
-}
-
-.weather-img{
-	width:30%;
-	margin:0 auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 3px grey;
 }
 
 .weather-card h3{
@@ -142,12 +180,13 @@ nav {
 }
 .weather-card p{
 	margin: 0 auto;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 #community h3{
-	margin: 0 auto;
+	text-align: center;
 	font-size: 2rem;
+	padding:8px;
 }
 
 footer{
@@ -435,12 +474,12 @@ form label.top input:required:valid{
 	margin-bottom: 250px;
 	font-family: 'Roboto',sans-serif;
  }
- /*Discover Page*/
+ /*Directory Page*/
 .menu{
 	margin: 1rem auto;
 	border: 1px solid rgba(0,0,0,.1);
 	padding: .5rem;
-	background-color: #219ebc;
+	background-color: #023047;
 	text-align: center;
 }
 
@@ -477,6 +516,7 @@ p{
 	grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
 	margin: 8px;
 	
+	
 }
 
 section{
@@ -488,6 +528,7 @@ section{
     margin:0 auto;
     padding:10px;   
     margin:10px;
+	background-color: white;
 }
 
 .list{
@@ -512,7 +553,10 @@ section{
 .list section:nth-child(even){
 	background-color: #e0f1f9;
 }
+figcaption{
+	font-size: 30px;
+	text-align: center;
+}
 
 
 
- 

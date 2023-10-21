@@ -16,7 +16,7 @@
             "phone" : "401-333-2222",
             "url" : "https://bettysbombers.com",
             "img" : "images/full-bloom.webp",
-            "membership" : "Non-profit",
+            "membership" : "Gold",
             "company" : "Betty's Bloomers"
         },
 
@@ -36,7 +36,7 @@
             "phone" : "401-555-4444",
             "url" : "https://canadianbacon.com",
             "img" : "images/butcher.webp",
-            "membership" : "Non-profit",
+            "membership" : "Silver",
             "company" : "Butcher Bacon"
         },
 
@@ -68,6 +68,16 @@
             "img" : "images/dance.webp",
             "membership" : "Gold",
             "company" : "Dancing Feet Dance Studio"
+        },
+
+        {
+            "name" : "Herman Isington",
+            "address": "808 Kangaroo Keep Drive, Newport RI 02842",
+            "phone" : "401-999-8888",
+            "url" : "https://jumpingfrogs.com",
+            "img" : "images/vet-dog.webp",
+            "membership" : "Non-profit",
+            "company" : "Kangaroo Keep Veterinary Clinic"
         }
     ]
 }

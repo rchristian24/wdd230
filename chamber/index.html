@@ -37,6 +37,14 @@
             <li><a href="join.html">Join</a></li>
           </ul>
         </nav>
+
+        <div id="banner">
+          <div class="banner_container">
+            <p class="banner_text">JOIN US FOR OUR MEET & GREET! Wednesday 7:00pm</p>
+            <button class="banner_button" onClick="hideAnnouncment()"></button>
+          </div>       
+        </div>
+          
       </header>
 
       <div id="hero">
@@ -52,42 +60,28 @@
 
       <main class="home">
        
-        <h3 id="spotlight">Company Spotlights</h3>
+        <h3 id="spotlightHeader">Company Spotlights</h3>
 
-        <div id="companies">
-          <div id="A4">
-          <img src="images/MemLogoSearch_A4_Architechture.png" alt="image of business">
-          <hr>
-          <p>A4 Architecture | 320 Thames Street Suite 353, Newport, R.I.</p>
-          <p>(401)849-5100</p>
-          </div>
+        <div id="spotlight"></div>
 
-          <div id="hospital">
-          <img src="images/Newport_Hospital_Logo.jpg" alt="image of business">
-          <hr>
-          <p>11 Friendship Street Newport, R.I.</p>
-          <p>(401)846-6400</p>
-          </div>
-
-          <div id="hotel">
-          <img src="images/MemLogoSearch_PVDLW_Primary_RGB.jpg" alt="image of business">
-          <hr>
-          <p>25 America's Cup Ave. Newport, R.I.</p>
-          <p>(401)849-1000</p>
-          </div>
-        </div>
+          
         
-
+        <div id="bottom">
         <section class="weather-card">
           <h3>Weather</h3>
-          <img class="weather-img" src="images/sun-346710.svg" alt="weather image">
-          <p>Sunny High 70's</p>
+          <p>The current temperature in Newport, Rhode Island is <span id="current-temp"></span></p>
+          <figure>
+              <img id="weather-icon" src="" alt="">
+              <figcaption></figcaption>
+          </figure>
         </section>
 
         <section id="community">
           <h3>Community Information</h3>
-          <p></p>
+          <p>We've transformed a newly renovated histroical building in the middle of the our growing Newport community!
+             New open office spaces and meeting area available to lease or rent! Contact Judy at(401)555-324-2942 for more information.</p>
         </section>
+        </div>
       </main>
 
     </div>
@@ -100,5 +94,10 @@
       </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/getDate.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/getHamButton.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    
+  
   </body>
 </html>
